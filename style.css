@@ -1,0 +1,44 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: .4rem 0 1.6rem;
+}
+
+header 
+{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin: 45px auto 5px;
+}
+header img {
+    position: absolute;
+    justify-content: center;
+    top: 130px;
+    left: 45px;
+    width: 155px;
+}
+header h1
+{
+    font-weight: 500;
+    font-size: 3.6rem;
+    display: block;
+    font-family: sans-serif;
+text-align: center;
+line-height: 2rem;
+}
+header h1 span
+{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
