@@ -1,4 +1,4 @@
-* 
+*
 {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     background-color: #fff;
     font-size: 1.4rem;
     line-height: 1.5;
-    margin: .4rem 0 1.6rem;
+    margin:  4.5px 0  18px;
 }
 
 header 
@@ -20,6 +20,8 @@ header
     width: 250px;
     height: 100px;
     margin: 45px auto 5px;
+    text-align: center;
+    line-height: 25px;
 }
 header img {
     position: absolute;
@@ -28,17 +30,23 @@ header img {
     left: 45px;
     width: 155px;
 }
-header h1
+header h1.texto
 {
-    font-weight: 500;
-    font-size: 3.6rem;
-    display: block;
-    font-family: sans-serif;
-text-align: center;
-line-height: 2rem;
+    font-size: 1.9rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 12px 10px 0 0;
 }
-header h1 span
+header h1.texto strong
 {
-    font-size: 1.7rem;
-    font-weight: 400;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+header h2.subtext 
+{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    display: inline;
+    height: 15px;
 }
