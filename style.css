@@ -13,6 +13,9 @@ body {
     line-height: 1.5;
     margin:  4.5px 0  18px;
 }
+a {
+    text-decoration: none;
+}
 
 header 
 {
