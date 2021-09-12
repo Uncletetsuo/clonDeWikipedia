@@ -15,8 +15,11 @@ body {
 }
 a {
     text-decoration: none;
+    color: #36c;
 }
-
+a:hover {
+    text-decoration: underline;
+}
 header 
 {
     position: relative;
@@ -29,7 +32,7 @@ header
 header img {
     position: absolute;
     justify-content: center;
-    top: 130px;
+    top: 170px;
     left: 45px;
     width: 155px;
 }
@@ -52,4 +55,83 @@ header h2.subtext
     font-size: 1.2rem;
     display: inline;
     height: 15px;
+}
+main section div.section-container {
+    display: grid;
+    grid-template-columns: 10px repeat(7, 70px) 10px;
+    grid-template-rows: repeat(5, 65px);
+    justify-content: center;
+}
+main section div div.section-article:hover {
+    background-color:#eaecf0;
+}
+main section div div.section-article {
+    text-align: center;
+    line-height: 23px;
+    width: 12rem;
+    height: 4rem;
+}
+main section div div.section-article p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+main section div div.section-article:nth-of-type(1) {
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    justify-self: start;
+}
+main section div div.section-article:nth-of-type(2) {
+    grid-column-start: 6;
+    grid-column-end: span 2;
+    justify-self: end;
+}
+main section div div.section-article:nth-of-type(3) {
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    justify-self: start;
+}
+main section div div.section-article:nth-of-type(4) {
+    grid-row: 2;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    justify-self: end;
+}
+main section div div.section-article:nth-of-type(5) {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    justify-self: start;
+}
+main section div div.section-article:nth-of-type(6) {
+    grid-row: 3;
+    grid-column-start: 7;
+    grid-column-end: span 3;
+    justify-self: end;
+}
+main section div div.section-article:nth-of-type(7) {
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    justify-self: start;
+}
+main section div div.section-article:nth-of-type(8) {
+    grid-row: 4;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    justify-self: end;
+}
+main section div div.section-article:nth-of-type(9) {
+    grid-row: 5;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    justify-self: start;
+}
+main section div div.section-article:nth-of-type(10) {
+    grid-row: 5;
+    grid-column-start: 6;
+    grid-column-end: span 2;
+    justify-self: end;
 }
