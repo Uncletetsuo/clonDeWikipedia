@@ -11,7 +11,7 @@ body {
     background-color: #fff;
     font-size: 1.4rem;
     line-height: 1.5;
-    margin:  4.5px 0  18px;
+    margin:  4.5px 1.3rem 1.3rem  18px;
 }
 a {
     text-decoration: none;
@@ -19,6 +19,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+div {
+    display: block;
 }
 header 
 {
@@ -134,4 +137,73 @@ main section div div.section-article:nth-of-type(10) {
     grid-column-start: 6;
     grid-column-end: span 2;
     justify-self: end;
+}
+section.search-container {
+    float: none;
+    max-width: 95%;
+    width: 540px;
+    margin: .4rem auto 1.95rem;
+    text-align: center;
+    vertical-align: middle;
+}
+section.search-container form.pure-form {
+    display: block;
+    margin-top: 0;
+}
+section.search-container form.pure-form fieldset {
+    word-spacing: -4px;
+    margin: 0px;
+    padding: .56rem 0 1.2rem;
+    border: 0px;
+}
+section.search-container form.pure-form fieldset div.search-input {
+    display: inline-block;
+    position: relative;
+    width: 57%;
+    vertical-align: top;
+}
+section.search-container form.pure-form fieldset div.search-input label.text {
+    cursor: default;
+    display: block;
+    position: absolute;
+    clip:  rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+section.search-container form.pure-form fieldset div.search-input input.text-box-input {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3.5rem;
+    border-width: 1px 0 1px 1px;
+    border-radius: 2px 0 0 2px;
+    padding: .8rem 5rem .8rem 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+section.search-container form.pure-form fieldset div.search-input input.text-box-input:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0;
+}
+section.search-container form.pure-form fieldset button.pure-button {
+    min-height: 3.5rem;
+    width: 4.2rem;
+    margin: 0px;
+    border-radius: 0 2px 2px 0;
+    padding: .8rem 1.6rem;
+    font-size: 1.2rem;
+    z-index: 2;
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+section.search-container form.pure-form fieldset button.pure-button:hover {
+    background: #447ff5;
+    border-color: #447ff5;
 }
