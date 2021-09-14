@@ -286,3 +286,11 @@ section.espacio {
     width: 80%;
     margin: -1.6rem auto 4.8rem;
 }
+hr
+{
+    border: 0;
+    clear: both;
+    height: 0;
+    border-bottom: 1px solid #c8ccd1;
+    margin: .26rem 1.3rem;
+}
